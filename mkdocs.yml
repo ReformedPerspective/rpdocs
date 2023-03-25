@@ -1,0 +1,13 @@
+site_name: RP Tech Documentation
+site_url: https://techdocs.reformedperspective.ca
+
+theme:
+  name: mkdocs
+  nav_style: light
+
+nav:
+  - Home: index.md
+  - Website: website/index.md
+  - Google: google.md
+  - Manna: manna.md
+  - App: app.md

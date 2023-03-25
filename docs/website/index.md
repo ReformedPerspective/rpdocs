@@ -1,14 +1,10 @@
----
-nav:
-  - 
----
 # Reformed Perspective Website
 
 ---
 
 The rp.ca website is created using Wordpress (PHP) and an extensive, custom PHP theme called **Benchpress**. It is hosted on Dreamhost and uses Cloudflare as a caching proxy.
 
-## Website Details
+## About the Website
 
 The Benchpress theme, stored at `wp-content/themes/benchpress` is a complex, custom theme that does almost all of the heavy lifting for the RP website. It handles:
 
@@ -29,6 +25,10 @@ Changes to the website are [tracked using git](git.md) and are pushed to the RP 
 ## Page Links
 
 ---
+
+### Benchpress
+
+[See Benchpress](benchpress.md)
 
 ### PHP
 

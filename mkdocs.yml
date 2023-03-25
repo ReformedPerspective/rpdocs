@@ -7,7 +7,14 @@ theme:
 
 nav:
   - Home: index.md
-  - Website: website/index.md
+  - Website:
+    - About: website/index.md
+    - Wordpress: website/wordpress.md
+    - Benchpress: website/benchpress.md
+    - PHP: website/php.md
+    - Git: website/git.md
+    - Dreamhost: website/dreamhost.md
+    - Cloudflare: website/cloudflare.md
   - Google: google.md
   - Manna: manna.md
   - App: app.md

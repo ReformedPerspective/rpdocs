@@ -1,0 +1,3 @@
+# Wordpress Setup
+
+## Plugins

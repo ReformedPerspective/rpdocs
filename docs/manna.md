@@ -39,3 +39,27 @@ eyeD3 --artist "${artist}" --album "${album}" --title "${title}" --track $track 
 ## Podbean Hosting
 
 The Manna Podcast is published via Podbean using Podbean's REST API. There is a custom domain as well, so the Podbean page is at [https://www.mannapodcast.ca](https://www.mannapodcast.ca).
+
+## Podcast Publishing Automation
+
+Manna is published via an automated script, which includes the following components:
+
+- a systemd timer and a service file that actually runs the script
+- a systemd environment file which stores the Podbean API keys
+- the publish-mannapodcast.sh script which actually publishes the podcast daily
+- the preprocessed data (votcdata.txt); pipe-separated data (the data contains commas ;-) taken from the above-mentioned PowerShell data file (i.e. sermondata.xml).
+- an install script that puts all these files into their proper places and registers the systemd timer. 'linger' is also enabled for the user account.
+
+The environment file is set up manually, since the keys shouldn't be stored in a Git repo. This is done in `~/.config/environment.d`
+
+### publish-mannapodcast.sh script
+
+The script loads the data from the `votcdata.txt` file and sets a starting date and and offset. This determines which podcast will be published each day and where to start.
+
+The Podbean API keys are loaded from the environment variables, and then the [Podbean API](https://developers.podbean.com/podbean-api-docs/) is queried to obtain an authentication token.
+
+Next, the current date is subtracted from the starting date to get the number of days elapsed, and the days are added to the offset to determine which item in the data should be processed for today's post `podcast=$(sed "${offset}1;d" $dataPath)`.
+
+The data from the correct row (now stored in `$podcast`) is extracted (mostly using `cut`) to build up all the fields needed to create a podcast post, including the URL to the correct mp3 on the RP web server and a 'content' field that contains information about the episode. Podbean will retrieve this file as the media file for this post.
+
+Finally the Podbean API is called once more to `POST` the podcast episode using the token obtained earlier and all the info. and the URL derived from the line in the data file.

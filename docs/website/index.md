@@ -20,6 +20,14 @@ Changes are made on the [staging site](staging.md) before being copied to the ma
 
 Changes to the website are [tracked using git](git.md) and are pushed to the RP [GitHub organization and repository](https://github.com/ReformedPerspective/reformedperspective.ca). Changes are pushed from staging and then pulled to the main rp.ca site using git.
 
+### scripts
+
+A number of scripts are used to manage website processes. The most elaborate of these is the [Manna Publish script](../manna.md#podcast-publishing-automation).
+
+Another script is the Expire Ads script. This script is run as a cron job and checks posts with the 'Ad-New' Category for an expiry date and expires them (i.e. changes them to Draft status) if the date has passed.
+
+More details can be found [here](scripts.md).
+
 ---
 
 ## Page Links

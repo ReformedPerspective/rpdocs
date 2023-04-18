@@ -15,6 +15,7 @@ nav:
     - Git: website/git.md
     - Dreamhost: website/dreamhost.md
     - Cloudflare: website/cloudflare.md
+    - Changelog: website/changelog.md
   - Google: google.md
   - Manna: manna.md
   - App: app.md

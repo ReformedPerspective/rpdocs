@@ -1,5 +1,5 @@
 site_name: RP Tech Documentation
-site_url: https://techdocs.reformedperspective.ca
+site_url: https://docs.reformedperspective.ca
 
 theme:
   name: mkdocs

@@ -53,3 +53,7 @@ More details can be found [here](scripts.md).
 ### Cloudflare
 
 [See Cloudflare](cloudflare.md)
+
+### Payments
+
+[See Payments](payments.md)

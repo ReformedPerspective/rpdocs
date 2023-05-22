@@ -4,7 +4,7 @@ The RP App is delivered via a platform called [Subsplash](https://www.subsplash.
 
 The Mobile App configuration is accessed from the Dashboard by clicking on *Apps* in the left sidebar, and then *Mobile App*. It is set up as a series of '*Screens*' or '[*Tabs*](index.md#bottom-buttons-tabs)' which are shown at the top of the Dashboard interface.
 
-There is some other functionality in the Subsplash Dashboard, such as [Push notifications](pushnotifications.md), [Analytics](analytics.md), and other [Settings](settings.md).
+There is some other functionality in the Subsplash Dashboard, such as [Push notifications](pushnotifications.md), [Analytics](analytics.md),[Account Settings](account.md), and other [Settings](settings.md).
 
 ## Home Screen Layout
 
@@ -108,6 +108,12 @@ These tabs can be managed using the *Manage tabs* button at the top-right of the
     - Page: Link to custom Subsplash page. (i.e. SnapPages) <sup>\**</sup>
     - Giving or payments: Link to Donation or Store URL
 - Fill In Notes: This seems to be a custom web page or a collection of custom pages designed for people to fill in like sermon notes? I'm not sure what this is for or how to use it properly.
+
+Library items can have artwork associate with them, and this artwork will show up in various parts of the App, depending on which size artwork is relevant. The sizes are:
+
+- Square: This is a 1024 x 1024 icon. We used this a lot.
+- Wide: A 1920 x 1080 graphic often used as a background image.
+- Banner: A 1920 x 692 suitable for banners.
 
 <sub><sup>\*</sup> = our current setting for this option</sub><br>
 <sub><sup>\**</sup> = we don't use this</sub>

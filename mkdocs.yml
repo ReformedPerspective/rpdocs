@@ -18,5 +18,5 @@ nav:
     - Changelog: website/changelog.md
   - Google: google.md
   - Manna: manna.md
-  - App: app.md
+  - App: app/index.md
   - Procedures: procedures.md

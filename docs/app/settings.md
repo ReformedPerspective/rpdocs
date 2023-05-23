@@ -71,7 +71,7 @@ Mobile App theme: Light (other option is Dark)
 
 ## Locations
 
-These map locations can also be found and edited under the ['*More*' tab](index.md#bottom-buttons-tabs) on the home screen settings.
+These map locations can also be found and edited under the ['*More*' tab](home.md#bottom-buttons-tabs) on the home screen settings.
 
 ## Users
 

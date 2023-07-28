@@ -11,6 +11,8 @@ The theme used for the rp.ca site is a [custom theme called Benchpress](benchpre
 
 ## Shortcodes
 
+Shortcodes are a way to get extra functionality into pages and posts without effort on the part of the content creators.
+
 In addition to the default Wordpress shortcodes:
 
 - `[caption][/caption]` - wraps captions around content (enclosing)
@@ -30,3 +32,8 @@ we have some custom ones. These are found in the Benchpress 'shortcodes.php' fil
         - e.g. `[BP_fontSize size=larger]Some more nice text[/BP_fontSize]`
     - also works with the font size slider by checking and adding 2px or subtracting 2px from the size of the regular paragraph text
     - only use to enclose complete lines. This might be expanded at some point to allow use in the middle of lines.
+
+Here are some resources on how to use and make shortcodes:
+
+- [WordPress Shortcodes: A Complete Guide (Smashing Magazine)](https://www.smashingmagazine.com/2012/05/wordpress-shortcodes-complete-guide/)
+- [WordPress Shortcodes (WordPress Codex)](https://codex.wordpress.org/Shortcode)

@@ -9,6 +9,7 @@ This uses the RP PayPal account to receive payments. This is done via a custom '
 ## Square
 
 People can make one-time or monthly credit card payments using our custom Square subscription form. This can be found in Square by:
+
 1. Go to [Online Checkout](https://squareup.com/dashboard/ecom/online-checkout/checkout-links) on the Square dashboard
 2. We use the first 'link' in the list: *Donate to Reformed Perspective*. If you click on it, a sidebar opens up
 3. Scroll down the sidebar and click '*Customize*' in the 'Checkout button' section to customize the look of the button

@@ -4,7 +4,7 @@ The RP App is delivered via a platform called [Subsplash](https://www.subsplash.
 
 The Mobile App configuration is accessed from the Dashboard by clicking on *Apps* in the left sidebar, and then *Mobile App*. It is set up as a series of '*Screens*' or '[*Tabs*](home.md#bottom-buttons-tabs)' which are shown at the top of the Dashboard interface.
 
-There is some other functionality in the Subsplash Dashboard, such as [Push notifications](pushnotifications.md), [Analytics](analytics.md),[Account Settings](account.md), and other [Settings](settings.md).
+There is some other functionality in the Subsplash Dashboard, such as [Push notifications](pushnotifications.md), [Analytics](analytics.md), [Account Settings](account.md), and other [Settings](settings.md).
 
 # Subsplash Dashboard
 

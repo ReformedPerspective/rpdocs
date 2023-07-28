@@ -4,6 +4,24 @@ The reformedperspective.ca site is connected to wordpress.com using the *tech* a
 
 ## Plugins
 
+The following plugins are in use on the rp.ca website:
+
+- **[(Simply) Guest Author Name](https://wordpress.org/plugins/guest-author-name/)**: Add authors to posts without having them as users
+- **[Aksimet Anti-Spam: Spam Protection](https://wordpress.org/plugins/akismet/)**: Spam protection for comments <sup>*</sup>
+- **[All In One WP Security](https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/)**: Security analyzer and administration tool
+- **[Basic User Avatars](https://wordpress.org/plugins/basic-user-avatars/)**: Locally-stored avatar images
+- **[Classic Editor](https://wordpress.org/plugins/classic-editor/)**: Allows use of Classic editor depending on user preference
+- **[Jetpack](https://wordpress.org/plugins/jetpack/)**: Security, performance, analytics, etc.
+- **[Jetpack Boost](https://wordpress.org/plugins/jetpack-boost/)**: Site optimization and analysis
+- **[Page Links To](https://wordpress.org/plugins/page-links-to/)**: Makes a page link to custom URL <sup>!</sup>
+- **[PublishPress Future](https://wordpress.org/plugins/post-expirator/)**: Expires page/post after timeout
+- **[Scheduled Post Trigger](https://wordpress.org/plugins/scheduled-post-trigger/)**: Try to publish unpublished scheduled posts
+- **[WP Mail SMTP](https://wordpress.org/plugins/wp-mail-smtp/)**: Configure SMTP mail sending
+- **[WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)**: Generates static html files generator
+- **[Yoast Duplicate Post](https://wordpress.org/plugins/duplicate-post/)**: Clone posts
+
+<sup>*</sup> it may be possible to get rid of this plugin
+<sup>!</sup> should get rid of this plugin
 
 ## Benchpress Theme
 

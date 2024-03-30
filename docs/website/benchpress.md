@@ -80,3 +80,20 @@ This page works similarly to the last two pages, but affects the order of the ca
 This page is for managing the contacts that show up on the [Contacts page](https://reformedperspective.ca/contact). It is possible to Add, Remove, and Re-order the items here.
 
 It's very important to realize that the actual 'username' is required to add an item to the contacts list. The username may not be obvious. It can be found by finding the user in question on the [Users page](https://reformedperspective.ca/wp-admin/users.php) and copying the name as it is found in the right-most 'Username' column.
+
+### Miscellaneous Options
+
+#### Category Descriptions
+
+The ability to show a description at the top of the first page of results for a category can be configured here.
+
+1. Make sure there's a description available for the category.
+2. Select the category from the dropdown list and click the 'Select Category' button.
+
+**NOTE**: You can add hyperlinks to the description just by using `<a href="https://...">Your text</a>`
+
+#### Motto and Tagline
+
+The RP motto can be set here. It is used in the header of the site underneath the logo.
+
+The site Tag Line is used on banners where something shorter than the motto is needed. It can be set in the Wordpress site settings under *General* or in the Appearance settings under *Customize*.

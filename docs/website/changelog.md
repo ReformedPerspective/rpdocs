@@ -15,3 +15,5 @@ The following steps were taken to enable the new Ads at the bottom of the articl
 3. Install the *PublishPress Future* plugin to allow setting an expiry date
 
 4. Create an adArea() function in BP_modules and call it from the articlePage() function in the Page Controller
+
+5. Set up a way for Categories to show the description at the top of the first page of results. Just add a description to the Category and then enable that category in Benchpress Options.

@@ -81,3 +81,5 @@ public function articleHorizontal($articles, $title, $link_title, $lazy_load = t
    ...
 }
 ```
+This will show up in VSCode when you mouseover the function anywhere it's called.
+![WP inline docs - VSCode popup](img/InlineDocs-VSCode-Popup.webp)

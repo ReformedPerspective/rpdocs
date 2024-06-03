@@ -55,7 +55,7 @@ foreach($forest as $tree) {
 }
 ```
 
-Always remove whitespace at the end of lines. Always leave an extra newline at the end of a file.
+Always remove whitespace at the end of lines. Always leave a single extra newline at the end of a file.
 
 ### PHP Inline Documentation
 
@@ -63,4 +63,21 @@ All PHP code should be documented internally largely following the [WordPress in
 
 #### examples
 
-1. 
+- A typical method of the main module controller
+
+```php
+/**
+ * Horizontal row of article cards with image, heading and truncated text.
+ * 
+ * @param array $articles Array of articles to display.
+ * @param string $title Title of section, if needed. Can be null, which eliminates it.
+ * @param string $link_title Relative URL to use as link for more of the same.
+ * @param bool $lazy_load Default: true. Lazy load images used by the cards.
+ * 
+ * @return void 
+ */
+public function articleHorizontal($articles, $title, $link_title, $lazy_load = true) {
+   # function code
+   ...
+}
+```

@@ -6,14 +6,11 @@ The RP 'Donate' page has a few ways that people can donate.
 
 This uses the RP PayPal account to receive payments. This is done via a custom '*hosted button*'.
 
-## Square
+## ~~Square~~Bambora
 
-People can make one-time or monthly credit card payments using our custom Square subscription form. This can be found in Square by:
+People can make one-time or monthly credit card payments using our custom Bambora subscription form.
 
-1. Go to [Online Checkout](https://squareup.com/dashboard/ecom/online-checkout/checkout-links) on the Square dashboard
-2. We use the first 'link' in the list: *Donate to Reformed Perspective*. If you click on it, a sidebar opens up
-3. Scroll down the sidebar and click '*Customize*' in the 'Checkout button' section to customize the look of the button
-4. Click '*Edit*' in the 'Details' section and scroll down and expand '*Advanced settings*' to get more options
+This is all handled by the Bambora API.
 
 ## Pre-Authorized Debit
 
